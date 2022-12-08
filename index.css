@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+@font-face {
+    font-family: 'jacques francois';
+    src: url('/JacquesFrancois-Regular.ttf');
+}
+
+
+
+html{
+    background-color: #EBDFD3;
+    font-family: 'jacques francois';
+}
+
+.menubar{
+    /* #EFE6DD */
+    overflow: hidden;
+    background-color: #EFE6DD;
+    display: flex;
+    justify-content: space-around;
+    height: 6rem;
+    width: 94rem;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+  
+.menubar a {
+ float: left;
+ color: #000000;
+ text-align: center;
+ padding: 2.4rem 2rem;
+ text-decoration: none;
+ font-weight:400;
+ font-size: 1.12rem;
+ text-shadow: 4px 4px 4px rgba(121, 142, 123, 0.5);
+ }
+
+.buttonElement{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.buttonElement:hover{
+  color:#BC673C;
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+#introductionPage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 9rem;
+    text-align: center;
+    align-items: center;
+    background-image: url("./images/mountainsVector5.png");
+    background-size: 55rem;
+    width: 80rem;
+
+}
+
+#introductionPage a{
+    font-size: 3.5rem;
+}
+
+#introductionPageText{
+    width: 30rem;
+    margin-left: 7rem;
+}
+
+#aboutPage{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#aboutPage p{
+    color: #332424;
+    font-size: 1.2rem;
+}
+
+.skillsPage img{
+    max-width: 1rem;
+    height: 1rem;
+    margin: auto;
+}
+
+.skillsPage{
+    margin:auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60rem;
+    font-size: 1.5rem;
+}
+
+.projectSlide{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projectSlide img{
+  max-width: 35rem;
+  border-radius: 9px;
+  border: 7px solid rgb(137, 81, 66, 0.67);
+  box-shadow: 10px 10px rgba(10, 0, 0, 0.15);
+  margin-top: 1rem;
+}
+
+.projectSlideElement{
+  margin-top: 5rem;
+  margin-left: 5rem;
+  font-size: 1.1rem;
+}
+
+.projectSlideElement img{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.projectSlideElement:hover img{
+  -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+  
+}
+
+
+
+
+
+
