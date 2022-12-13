@@ -20,7 +20,7 @@ html{
 .menubar{
     /* #EFE6DD */
     overflow: hidden;
-    background-color: #EFE6DD;
+    background-color: #efe6dd1b;
     display: flex;
     justify-content: space-around;
     height: 6rem;
@@ -30,7 +30,6 @@ html{
     margin-top: 1rem;
     align-items: center;
     flex-wrap: wrap;
-    position: sticky;
     top: 0;
     
 }
